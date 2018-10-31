@@ -2,9 +2,10 @@
 
 /*------------------------------------------LOGIN CSS STARTS----------------------------------------------------*/
 .logo{
-    width:30px;
-    height: 30px;
+    width:70px;
+    height: 70px;
     margin-bottom: 2%;
+    border-radius: 50%;
 }
 .login_text{
     font-family: Raleway-Black;
@@ -15,7 +16,7 @@
     background-image: url("../images/images.jpg");
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
 }
 .form {
     width: 23.7%;
@@ -141,6 +142,38 @@
         margin-left: 15% !important;
         margin-bottom: 10% !important;
         border-radius: 5px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .form{
+        margin-top: 10%;
+    }
+    .form_registration{
+        margin-top: 10% !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .form{
+        margin-top: 15%;
+    }
+    .form_registration{
+        margin-top: 15% !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .form{
+        margin-top: 25%;
+    }
+    .form_registration{
+        margin-top: 25% !important;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .form{
+        margin-top: 30%;
+    }
+    .form_registration{
+        margin-top: 30% !important;
     }
 }
 @media only screen and (max-height: 400px) {
