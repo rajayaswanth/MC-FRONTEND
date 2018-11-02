@@ -17,6 +17,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 100vh;
 }
 .form {
     width: 23.7%;
